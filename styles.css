@@ -540,6 +540,50 @@ section {
     transform: translateX(4px);
 }
 
+/* Privacy Section */
+.privacy {
+    background: var(--bg-white);
+    padding: 48px 0;
+}
+
+.privacy .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 32px;
+}
+
+.privacy-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.privacy-content p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 24px;
+    color: var(--text-secondary);
+}
+
+.privacy-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.privacy-links a {
+    color: var(--gradient-1);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 0.85rem;
+}
+
+.privacy-links a:hover {
+    color: var(--gradient-2);
+    text-decoration: underline;
+}
+
 /* Footer */
 .footer {
     background: var(--text-primary);
