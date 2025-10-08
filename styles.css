@@ -423,6 +423,32 @@ section {
     margin-bottom: 24px;
 }
 
+/* Banner CTA Section */
+.banner-cta {
+    background: var(--bg-white);
+    padding: 60px 0;
+}
+
+.banner-image-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    transition: all 0.3s ease;
+}
+
+.banner-image-wrapper:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(60,64,67,.3);
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* CTA Section */
 .cta {
     background: linear-gradient(135deg, var(--gradient-1) 0%, var(--gradient-2) 100%);
@@ -621,6 +647,14 @@ section {
     .cta-button {
         padding: 16px 40px;
         font-size: 1.125rem;
+    }
+
+    .banner-cta {
+        padding: 40px 0;
+    }
+
+    .banner-image-wrapper {
+        border-radius: 12px;
     }
 }
 
