@@ -291,6 +291,12 @@ section {
     white-space: nowrap;
 }
 
+.optional-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
 .timeline-content p {
     color: var(--text-secondary);
     line-height: 1.8;
@@ -789,6 +795,10 @@ section {
     .optional-badge {
         font-size: 0.7rem;
         padding: 4px 10px;
+    }
+
+    .optional-text {
+        font-size: 0.8rem;
     }
 
     .speaker-card {
