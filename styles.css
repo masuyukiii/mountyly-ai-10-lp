@@ -361,6 +361,48 @@ section {
     font-size: 1.125rem;
     font-weight: 500;
     color: var(--text-secondary);
+    margin-bottom: 12px;
+}
+
+.speaker-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.speaker-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--bg-white);
+    color: var(--gradient-1);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.speaker-link:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    background: var(--gradient-1);
+    color: white;
+}
+
+.speaker-link svg {
+    flex-shrink: 0;
+}
+
+.speaker-link-x {
+    color: #000000;
+}
+
+.speaker-link-x:hover {
+    background: #000000;
+    color: white;
 }
 
 .speaker-bio {
