@@ -270,13 +270,14 @@ section {
 
 .time-badge {
     display: inline-block;
-    background: linear-gradient(135deg, var(--gradient-1) 0%, var(--gradient-2) 100%);
+    background: var(--text-secondary);
     color: white;
     padding: 6px 16px;
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 600;
     white-space: nowrap;
+    margin-right: 12px;
 }
 
 .optional-badge {
