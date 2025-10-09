@@ -399,11 +399,18 @@ section {
 
 .speaker-link-x {
     color: #000000;
+    padding: 10px;
+    min-width: auto;
 }
 
 .speaker-link-x:hover {
     background: #000000;
     color: white;
+}
+
+.speaker-link-x svg {
+    width: 20px;
+    height: 20px;
 }
 
 .speaker-bio {
